@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Weather- API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="weather-header">
+            <form class="weather-search">
+                <i class='bx bx-search'></i>
+                <input type="text" class="city_name" placeholder="search your city">
+            </form>
+        </div>
+
+        <!-- ? main div -->
+        <div class="weather-body">
+            <h1 class="weather-city">satna</h1>
+            <p class="weather-datetime">12:12:50 AM</p>
+            <div class="weather-data">
+                <p class="weather-forecast">satna</p>
+                <div class="weather-icon">icon</div>
+            </div>
+            <p class="weather-temperature">satna</p>
+            <div class="weather-minmax">
+                <p class="weather-min">satna</p>
+                <p class="weather-max">satna</p>
+            </div>
+        </div>
+        <section class="weather-info">
+            <div class="weather-card">
+                <div class="card-center">
+                    <i class='bx bxs-thermometer'></i>
+                    <div>
+                        <p>Feels like</p>
+                        <p class="weather-feelslike">15&#176</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <div class="card-center">
+                    <i class='bx bxs-droplet'></i>
+                    <div>
+                        <p>Humidity</p>
+                        <p class="weather-humidity">80%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <div class="card-center">
+                    <i class='bx bx-wind'></i>
+                    <div>
+                        <p>Wind</p>
+                        <p class="weather-wind">5 km/s</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <div class="card-center">
+                    <i class='bx bxs-palette'></i>
+                    <div>
+                        <p>Pressure</p>
+                        <p class="weather-pressure">880 pha</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
